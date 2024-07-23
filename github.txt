@@ -1,0 +1,46 @@
+1. Download Git : https://git-scm.com/
+
+
+2. Open cmd and Register your GitHub account (Only have to do it once)
+
+	git config --global user.name "username"
+
+	git config --global user.email "email"
+
+
+3. Create Folder where you store the project files
+
+4. Open cmd in the folder
+
+	a. Create a new local repo
+
+		git init 
+
+	b. Display the status of working directory and the staging area
+
+		git status
+
+	c. Add changes in the working directory to the staging area
+
+		git add . 
+
+	d. To save your changes into local repo
+
+		git commit -m "message"
+
+	e. Create a new branch 
+
+		git branch -M main
+
+	f. Create a new connection to a remote repo
+
+		git remote add origin  "url"
+
+	g. Upload local repo content to the remote repo
+
+		git push -u origin main
+
+
+
+
+	
